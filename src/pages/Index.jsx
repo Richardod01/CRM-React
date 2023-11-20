@@ -62,12 +62,11 @@ function Index() {
                             <th className="p-2">Acciones</th>
                         </tr>
                     </thead>
-
                     <tbody>
                         {clientes.map(cliente => (
                             <Cliente
-                                cliente = {cliente}
-                                key = {cliente.id}
+                                cliente={cliente}
+                                key={cliente.id}
                             />
                         ))}
                     </tbody>
