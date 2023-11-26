@@ -12,6 +12,7 @@ const Formulario = ({cliente}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Nombre del Cliente"
                     name="nombre"
+                    defaultValue={cliente?.nombre}
                 />
             </div>
             <div className="mb-4">

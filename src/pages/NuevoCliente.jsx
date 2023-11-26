@@ -27,7 +27,6 @@ export async function action({ request }) {
 
   await agregarCliente(datos)
   return redirect('/')
-  // return 0
 }
 
 function NuevoCliente() {
